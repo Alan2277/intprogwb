@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-tela {
+.tela {
   background-image: linear-gradient(to right, white, gray); 
 }
 h1{
