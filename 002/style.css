@@ -1,0 +1,12 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right, white, gray); 
+}
+h1{
+  font-weight: lighter;
+}
