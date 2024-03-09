@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(to right, black, gray); 
+  background-image: linear-gradient(to right, white, gray); 
 }
 h1{
   font-weight: lighter;
