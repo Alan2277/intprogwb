@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
- 
- body {
+}
+
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,18 +12,18 @@
     text-align: justify;
     padding: 60px;
     background-color: #8FBC8F
- }
- 
- .tela {
+}
+
+.tela {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 50px
- }
- 
- .post1 {
+}
+
+.post1 {
     padding-top: 20px;
     position: relative;
     width: 450px;
@@ -34,45 +34,45 @@
     overflow: hidden;
     flex-direction: row;
     justify-content: flex-start;
- }
- 
- .post1:hover {
+}
+
+.post1:hover {
     animation: animate 1s linear infinite;
- }
- 
- @keyframes animate {
+}
+
+@keyframes animate {
     100% {
-       filter: hue-rotate(360deg)
+        filter: hue-rotate(360deg)
     }
- }
- 
- h1 {
+}
+
+h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
- }
- 
- h2 {
+}
+
+h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 17px;
- }
- 
- img {
+}
+
+img {
     border-radius: 30px;
     padding-bottom: 20px;
- }
- 
- p {
+}
+
+p {
     text-align: justify;
     padding: 15px;
     padding-top: 25px;
- }
- 
- a {
+}
+
+a {
     font-size: 20;
     font-family: 'Courier New', Courier, monospace;
- }
- 
- .post2 {
+}
+
+.post2 {
     padding-top: 20px;
     position: relative;
     width: 450px;
@@ -82,23 +82,23 @@
     box-shadow: 0 0 50px #006400;
     overflow: hidden;
     flex-direction: row;
- }
- 
- .post2:hover {
+}
+
+.post2:hover {
     animation: animate 1s linear infinite;
- }
- 
- @keyframes animate {
+}
+
+@keyframes animate {
     100% {
-       filter: hue-rotate(360deg)
+        filter: hue-rotate(360deg)
     }
- }
- 
- .links {
+}
+
+.links {
     padding-left: 70px;
- }
- 
- ul {
+}
+
+ul {
     list-style-type: none;
     display: flex;
     position: relative;
@@ -106,10 +106,10 @@
     justify-content: center;
     align-items: center;
     padding-top: 40px;
- 
- }
- 
- ul li {
+
+}
+
+ul li {
     width: 55px;
     height: 55px;
     background-color: rgb(237, 231, 231);
@@ -120,46 +120,46 @@
     align-items: center;
     position: relative;
     transition: .2s;
- }
- 
- ul li div {
+}
+
+ul li div {
     position: absolute;
- }
- 
- ul li:hover {
+}
+
+ul li:hover {
     width: 180px;
- }
- 
- ul li .icon {
+}
+
+ul li .icon {
     color: #C0C0C0;
     font-size: 30px;
     transition: .2s;
- }
- 
- ul li .text {
+}
+
+ul li .text {
     color: white;
     font-size: 15px;
     transform: scale(0);
     transition-delay: .1.5s;
- }
- 
- ul li:hover .text {
+}
+
+ul li:hover .text {
     transform: scale(1)
- }
- 
- ul li:hover .icon {
+}
+
+ul li:hover .icon {
     transform: scale(0);
- }
- 
- ul li::before {
+}
+
+ul li::before {
     content: '';
     position: absolute;
     background-image: linear-gradient(45deg, var(--cor1), var(--cor2));
     inset: 0;
     opacity: 0;
     border-radius: 50px;
- }
- 
- ul li:hover::before {
+}
+
+ul li:hover::before {
     opacity: 1;
- }
+}
