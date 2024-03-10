@@ -23,84 +23,87 @@
     <h2>Formulário</h2>
     <h3>Cadastro</h3>
 
-    <strong>Login:</strong> <br>
-    <input name="login" type="text">
-    <br>
-    <strong>Senha:</strong> <br>
-    <input name="senha" type="password">
-    <br>
-    <strong>Confirme a Senha:</strong><br>
-    <input name="confSenha" type="password">
-    <br>
-    <strong>Nome:</strong><br>
-    <input name="nome" type="text">
-    <br>
-    <strong>Sexo:</strong><br>
+    <form action="http://191.252.62.149:8080/pweb/salvar.jsp" method="post" target="_blank">
+        <strong>Login:</strong> <br>
+        <input name="login" type="text">
+        <br>
+        <strong>Senha:</strong> <br>
+        <input name="senha" type="password">
+        <br>
+        <strong>Confirme a Senha:</strong><br>
+        <input name="confSenha" type="password">
+        <br>
+        <strong>Nome:</strong><br>
+        <input name="nome" type="text">
+        <br>
+        <strong>Sexo:</strong><br>
 
-    <input name="sexo" type="radio" value="M">Masculino<br>
-    <input name="sexo" type="radio" value="F">Feminino<br>
+        <input name="sexo" type="radio" value="M">Masculino<br>
+        <input name="sexo" type="radio" value="F">Feminino<br>
 
 
-    <strong>Email:</strong><br>
-    <input name="email" type="email">
-    <br>
-    <strong>Interesses:</strong><br>
-    <input name="interesses" type="checkbox">HTML<br>
-    <input name="interesses" type="checkbox">CSS<br>
-    <input name="interesses" type="checkbox">JavaScript<br>
-    <input name="interesses" type="checkbox">Java<br>
-    <input name="interesses" type="checkbox">Python<br>
-    <input name="interesses" type="checkbox">C#<br>
-    <br>
-    <strong>Estado:</strong><br>
-    <select>
-        <option value="" selected>--Escolha--</option>
-        <optgroup label="Região Norte">
-            <option value="AC">Acre</option>
-            <option value="AP">Amapá</option>
-            <option value="AM">Amazonas</option>
-            <option value="PA">Pará</option>
-            <option value="RO">Rondônia</option>
-            <option value="RR">Roraima</option>
-            <option value="TO">Tocantis</option>
-        </optgroup>
+        <strong>Email:</strong><br>
+        <input name="email" type="email">
+        <br>
+        <strong>Interesses:</strong><br>
+        <input name="interesses" type="checkbox" value="HTML">HTML<br>
+        <input name="interesses" type="checkbox" value="CSS">CSS<br>
+        <input name="interesses" type="checkbox" value="JavaScript">JavaScript<br>
+        <input name="interesses" type="checkbox" value="Java">Java<br>
+        <input name="interesses" type="checkbox" value="Python">Python<br>
+        <input name="interesses" type="checkbox" value="C#">C#<br>
+        <br>
+        <strong>Estado:</strong><br>
+        <select>
+            <option value="" selected>--Escolha--</option>
+            <optgroup label="Região Norte">
+                <option value="AC">Acre</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="PA">Pará</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="TO">Tocantis</option>
+            </optgroup>
 
-        <optgroup label="Região Nordeste">
-            <option value="AL">Alagoas</option>
-            <option value="BA">Bahia</option>
-            <option value="CE">Ceará</option>
-            <option value="MA">Maranhão</option>
-            <option value="PB">Paraíba</option>
-            <option value="PI">Piauí</option>
-            <option value="RN">Rio Grande do Norte</option>
-            <option value="SE">Sergipe</option>
-        </optgroup>
+            <optgroup label="Região Nordeste">
+                <option value="AL">Alagoas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="MA">Maranhão</option>
+                <option value="PB">Paraíba</option>
+                <option value="PI">Piauí</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="SE">Sergipe</option>
+            </optgroup>
 
-        <optgroup label="Região Centro-Oeste">
-            <option value="GO">Goiás</option>
-            <option value="MT">Mato Grosso</option>
-            <option value="MS">Mato Grosso do Sul</option>
-        </optgroup>
+            <optgroup label="Região Centro-Oeste">
+                <option value="GO">Goiás</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+            </optgroup>
 
-        <optgroup label="Região Sudeste">
-            <option value="ES">Espírito Santo</option>
-            <option value="MG">Minas Gerais</option>
-            <option value="RJ">Rio de Janeiro</option>
-            <option value="SP">São Paulo</option>
-        </optgroup>
+            <optgroup label="Região Sudeste">
+                <option value="ES">Espírito Santo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+            </optgroup>
 
-        <optgroup label="Região Sul">
-            <option value="PR">Paraná</option>
-            <option value="SC">Santa Catarina</option>
-            <option value="RS">Rio Grande do Sul</option>
-        </optgroup>
-    </select><br>
-    <br>
-    <strong>Observação:</strong><br>
-    <textarea rows="5" cols="50"></textarea>
-    <br>
-    <input name="button" type="submit">
+            <optgroup label="Região Sul">
+                <option value="PR">Paraná</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </optgroup>
+        </select><br>
+        <br>
+        <strong>Observação:</strong><br>
+        <textarea rows="5" cols="50" value=text></textarea>
+        <br>
+
+        <input name="submit" type="submit" value="Enviar">
     </form>
+
 
 
 </body>
