@@ -7,40 +7,99 @@
     <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/438771627854024704/Az4OY07a_400x400.png"
         type="image/x-icon">
     <style>
+
         body {
-            background-image: linear-gradient(to right, white, gray);
+            background-color: #dcdcdc
+        }
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2em;
+            color: rgb(88, 87, 85);
         }
 
-        h1 {
-            align-items: center;
-            text-align: center;
-            justify-content: center;
+        .container {
+            display: flex;
+            flex-direction: column;
+            font-size: 12px ;
         }
-        p{
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-            font-size: 20px;
+
+        .noticia{
+            clear: both;
+            text-align: justify;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.5em;
+            padding-top: 4px ;
+            padding-left: 7px ;
+            padding-right: 7px ;
+
         }
-        .imagem{
-            align-items: center;
-            text-align: center;
-            justify-content: space-around;
-            padding-top: 60px;
+
+        .formatoimagem {
+            width: 223px;
+            height: 150px;
+        }
+
+        .direcaoimagens {
+            float: left;
+        }
+
+        .boxImagens {
+            border: 1px solid black;
+            background-color: white;
+            width: 223px;
+            height: 190px;
+            margin: 5px;
+            float: left;
+            padding: 4px;
+            
+        }
+
+        .boxImagens p {
+            padding-left: 15px;
+            font-size: 1.25em;
         }
     </style>
-    <title>Atividade 05 - Alan</title>
+    <title>Atividade 08 – Box Model</title>
 </head>
 
 <body>
 
-    <h1>AINDA ESTOU PENSANDO COMO VOU FAZER ESTA ATIVIDADE</h1>
-    <p><strong>CARREGANDO...</strong></p>
-    <div class="imagem">
-        <img src="https://i.gifer.com/origin/34/34338d26023e5515f6cc8969aa027bca.gif" alt="Carregando" width="230px" height="200px">
-        <img src="https://static.vecteezy.com/system/resources/previews/024/785/804/non_2x/3d-male-character-thinking-and-working-on-a-laptop-free-png.png" alt="Pensando" width="230px" height="200px">
-    </div>
+    <div class="container">
+        
+        <h1>Atividade 08 – Box Model</h1>
 
+        <div class="direcaoimagens">
+
+            <div class="boxImagens">
+                <img class="formatoimagem" src="img/imagem1.png" alt="Imagem do soldado com crianças">
+                <p>Resumo</p>
+            </div>
+            <div class="boxImagens">
+                <img class="formatoimagem" src="img/imagem2.png" alt="Pessoa no frio">
+                <p>Resumo</p>
+            </div>
+
+            <div class="boxImagens">
+                <img class="formatoimagem" src="img/imagem3.png" alt="Idoso">
+                <p>Resumo</p>
+            </div>
+
+            <div class="boxImagens">
+                <img class="formatoimagem" src="img/imagem4.png" alt="Crianças">
+                <p>Resumo</p>
+            </div>
+
+            <div class="boxImagens">
+                <img class="formatoimagem" src="img/imagem5.png" alt="Self">
+                <p>Resumo</p>
+            </div>
+        </div>
+
+        <div class="noticia">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque aperiam doloremque numquam quis quo temporibus debitis esse illo consequuntur ipsam fugiat magni, possimus pariatur aliquid, alias nulla dolorem quaerat consectetur? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam exercitationem architecto culpa obcaecati dolorum magni, necessitatibus id beatae suscipit cupiditate pariatur qui rerum ex dolore odio ratione vero aut dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A veritatis repellat, nesciunt aut atque natus error, dignissimos doloribus beatae nisi consequatur officia cumque consequuntur repellendus culpa, corporis quos laborum adipisci?</p>
+        </div>
+
+    </div>
 
 </body>
 
