@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/icone.png"
-        type="image/x-icon">
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
     <style>
         .icone {
             text-align: start;
@@ -14,6 +13,7 @@
         .menu {
             text-align: right;
         }
+
         .conteudo {
             text-align: justify;
         }
@@ -22,13 +22,22 @@
             text-align: center;
 
         }
+
+        .boxcadastro {
+            margin: 2px;
+            padding: 4px;
+        }
+
+        .input {
+            padding: 4px;
+        }
     </style>
     <title>JM VIAGENS - Contato</title>
 </head>
 
 <body>
 
-    <table border="0" width="100%" cellspacing="5" cellpadding="10" align="center"> 
+    <table border="0" width="100%" cellspacing="5" cellpadding="10" align="center">
 
         <tr>
             <td class="icone"><img src="img/logo.png" alt="Logo da Empresa"></td>
@@ -62,12 +71,66 @@
                     ipsum.
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate iste magnam corrupti vel nihil
                     architecto optio quis nesciunt saepe neque? Harum expedita ex alias a libero obcaecati eveniet,
-                    iusto molestias! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, accusamus dolores. Et, fugiat architecto tempora, aperiam veritatis itaque aspernatur numquam, dolorum hic consequatur provident dolore possimus vero adipisci repudiandae illo. </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus magni dolor similique non ullam
-                    quibusdam. Magni voluptas reprehenderit aliquid error reiciendis ab, itaque architecto iste expedita
-                    quia, accusamus alias doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
-                    vero praesentium, repellat perspiciatis nesciunt non natus mollitia impedit repellendus quos, ad
-                    facilis nisi labore ipsum reiciendis veritatis voluptates enim eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam consequatur assumenda voluptatibus fuga dolore cupiditate excepturi architecto iusto explicabo itaque. Culpa ipsa delectus doloremque tempora? Nisi accusantium incidunt rerum possimus?</p>
+                    iusto molestias! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, accusamus
+                    dolores. Et, fugiat architecto tempora, aperiam veritatis itaque aspernatur numquam, dolorum hic
+                    consequatur provident dolore possimus vero adipisci repudiandae illo. </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <h2>Cadastro de usuário:</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <form action="#" method="post" target="_blank">
+
+                    <div class="boxcadastro">
+                        <strong>Nome:</strong>
+                        <input name="nome" type="text" class="input">
+                    </div>
+
+                    <div class="boxcadastro">
+                        <strong>CPF:</strong>
+                        <input type="text" name="cpf" class="input">
+                    </div>
+
+                    <div class="boxcadastro">
+                        <strong>Email:</strong>
+                        <input type="email" name="email" id="email" class="input">
+                    </div>
+
+                    <div class="boxcadastro">
+                        <strong>Data de nascimento:</strong>
+                        <input type="date" name="date" id="date" class="input">
+                    </div>
+
+                    <div class="boxcadastro">
+                        <strong>Endereço:</strong>
+                        <input type="text" name="endereco" id="endereco" class="input">
+                        <span class="boxcadastro">
+                            <strong>Complemento:</strong>
+                            <input type="text" name="complementoEndereço" id="complementoEndereço" class="input">
+                        </span>
+                    </div>
+
+                    <div class="boxcadastro">
+                        <strong>Crie uma senha:</strong>
+                        <input type="password" name="password" id="password" class="input">
+                    </div>
+
+                    <div class="boxcadastro">
+                        <strong>Confirme a Senha:</strong>
+                        <input name="confSenha" type="password" class="input">
+                    </div>
+
+                    <div class="boxcadastro">
+                        <input type="button" value="Cadastrar" class="input">
+                    </div>
+
+                </form>
             </td>
         </tr>
 
