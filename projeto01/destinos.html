@@ -8,8 +8,13 @@
 
     <style>
         body {
-            padding: 0% 20% 0% 20% ;
+            padding: 0% 20% 0% 20%;
         }
+
+        .divPrincipal {
+            text-align: center;
+        }
+
         .icone {
             text-align: start;
             width: 200px;
@@ -27,6 +32,8 @@
             margin: 10px;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1em;
+            border-radius: 9px;
+            background-color: rgb(226, 226, 226);
         }
 
         .boxinfo p {
@@ -38,149 +45,156 @@
         .imagens {
             width: 330px;
             height: 210px;
-            padding-left: 6px;
-            padding-right: 6px;
+            padding-left: 2px;
+            padding-right: 2px;
             padding-top: 5px;
             padding-bottom: 6px;
+            border-radius: 15px;
         }
 
-        .divPrincipal {
-            display: flex;
+        .divPrincipalBox {
             float: left;
             text-align: center;
             align-items: center;
             justify-content: space-around;
             margin-left: 25px;
             font-size: 16px;
+            padding-left: 55px;
         }
 
         .final {
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
         }
-        
     </style>
 
     <title>JM VIAGENS - Destinos</title>
 </head>
 
 <body>
+    <div class="principal">
+        <table border="0" width="100%" cellspacing="5" cellpadding="10" align="center">
 
-    <table border="0" width="100%" cellspacing="5" cellpadding="10" align="center">
+            <tr>
+                <td class="icone"><img src="img/logo.png" alt="Logo da Empresa"></td>
+                <td class="menu">
+                    <a href="index.html" hreflang="pt-br" target="_self">Home | </a>
 
-        <tr>
-            <td class="icone"><img src="img/logo.png" alt="Logo da Empresa"></td>
-            <td class="menu">
-                <a href="index.html" hreflang="pt-br" target="_self">Home | </a>
+                    <a href="quem-somos.html" hreflang="pt-br" target="_self">Quem somos | </a>
 
-                <a href="quem-somos.html" hreflang="pt-br" target="_self">Quem somos | </a>
+                    <a href="destinos.html" hreflang="pt-br" target="_self">Destinos | </a>
 
-                <a href="destinos.html" hreflang="pt-br" target="_self">Destinos | </a>
+                    <a href="pacotes.html" hreflang="pt-br" target="_self">Pacotes de Viagens | </a>
 
-                <a href="pacotes.html" hreflang="pt-br" target="_self">Pacotes de Viagens | </a>
+                    <a href="contato.html" hreflang="pt-br" target="_self">Contato</a>
+                </td>
+            </tr>
+            <tr>
+                <td> <img src="img/destinos.png" alt="Imagem Quem Somos" width="333%"></td>
+            </tr>
+        </table>
 
-                <a href="contato.html" hreflang="pt-br" target="_self">Contato</a>
-            </td>
-        </tr>
-        <tr>
-            <td> <img src="img/destinos.png" alt="Imagem Quem Somos" width="333%"></td>
-        </tr>
-    </table>
+        <div class="divPrincipalBox">
 
-    <div class="divPrincipal">
+            <div class="boxinfo">
+                <img src="https://www.segueviagem.com.br/wp-content/uploads/2020/12/Ponte-Estaiada-Teresina-Piau%C3%AD-Assessoria-de-imprensa.jpeg"
+                    alt="" class="imagens">
+                <strong>Teresina-PI</strong>
+                <p>
+                    Conhecida como Cidade Verde, a capital do Piauí tem muitas belezas naturais. É conhecida por cidade
+                    verde também por ter ruas e avenidas entremeadas de árvores, com belas árvores decorativas e
+                    frutíferas
+                    espalhadas por vários lugares.
+                </p>
+            </div>
 
-        <div class="boxinfo">
-            <img src="https://www.segueviagem.com.br/wp-content/uploads/2020/12/Ponte-Estaiada-Teresina-Piau%C3%AD-Assessoria-de-imprensa.jpeg"
-                alt="" class="imagens">
-            <strong>Teresina-PI</strong>
-            <p>
-                Conhecida como Cidade Verde, a capital do Piauí tem muitas belezas naturais. É conhecida por cidade
-                verde também por ter ruas e avenidas entremeadas de árvores, com belas árvores decorativas e frutíferas
-                espalhadas por vários lugares.
-            </p>
+            <div class="boxinfo">
+                <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/04/brasilia.jpg" alt=""
+                    class="imagens">
+                <strong>Brasília-DF</strong>
+                <p>
+                    Brasília é palco de intensas transformações e repleta de diversidades, tanto do ponto de vista
+                    econômico, em relação à distribuição de renda, quanto do ponto de vista social, ao se analisar a
+                    população que contempla a capital e todo seu entorno, nas regiões administrativas.
+                </p>
+            </div>
+
+            <div class="boxinfo">
+                <img src="https://www.core-sp.org.br/imagens/2023-07/5/sp%20cidade%20ok.png" alt="" class="imagens">
+                <strong>São Paulo-SP</strong>
+                <p>
+                    A maior metrópole do Brasil tem se destacado cada vez mais como um importante destino de lazer.
+                    Repleta
+                    de atrações culturais, gastronômicas e de entretenimento.
+                </p>
+            </div>
+
+            <div class="boxinfo">
+                <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/03/1-cristo-redentor.jpg" alt=""
+                    class="imagens">
+                <strong>Rio de Janeiro-RJ</strong>
+                <p>
+                    O Rio de Janeiro é uma grande cidade brasileira à beira-mar, famosa pelas praias de Copacabana e
+                    Ipanema, pela estátua de 38 metros de altura do Cristo Redentor, no topo do Corcovado, e pelo Pão de
+                    Açúcar, um pico de granito com teleféricos até seu cume.
+                </p>
+            </div>
+
+            <div class="boxinfo">
+                <img src="https://emcasa.com/blog/wp-content/uploads/2022/06/Belo_Horizonte_2.jpg" alt=""
+                    class="imagens">
+                <strong>Belo Horizonte-MG</strong>
+                <p>
+                    A cidade de Belo Horizonte está localizada na porção central do estado de Minas Gerais. O município
+                    está
+                    assentado ao longo da serra do Curral, formação geomorfológica marcada pelas elevadas altitudes.
+                </p>
+            </div>
+
+            <div class="boxinfo">
+                <img src="https://sonharemorar.mrv.com.br/wp-content/uploads/2023/05/custo-de-vida-em-curitiba.webp"
+                    alt="" class="imagens">
+                <strong>Curitiba-PR</strong>
+                <p>
+                    Curitiba é uma cidade linda, com muitas áreas verdes distribuídas por suas diversas praças, parques
+                    e
+                    bairros. No Centro, a beleza fica por conta da vida intensa nas ruas e dos edifícios e mansões do
+                    século
+                    XIX, em contraste com as construções art-déco, ecléticas, neo-góticas.
+                </p>
+            </div>
+
+            <div class="boxinfo">
+                <img src="https://a.cdn-hotels.com/gdcs/production74/d54/79c669d3-5325-4c3f-94d2-e76d7f3fabc4.jpg?impolicy=fcrop&w=800&h=533&q=medium"
+                    alt="" class="imagens">
+                <strong>Fortaleza-CE</strong>
+                <p>
+                    Fortaleza é a capital do estado do Ceará, no Nordeste brasileiro. A cidade é conhecida por suas
+                    praias,
+                    com falésias vermelhas, palmeiras, dunas e lagoas. As tradições folclóricas da cidade podem ser
+                    vistas
+                    em apresentações de dança no Theatro José de Alencar.
+                </p>
+            </div>
+
+            <div class="boxinfo">
+                <img src="https://www.cvc.com.br/dicas-de-viagem/wp-content/uploads/2023/05/maragogi-porto-de-galinhas-vista-1170x650.jpg"
+                    alt="" class="imagens">
+                <strong>Porto de Galinhas-PE</strong>
+                <p>
+                    Porto de Galinhas é uma praia localizada no distrito homônimo, pertencente ao município de Ipojuca,
+                    no
+                    estado de Pernambuco, Brasil. A região possui piscinas de águas claras e mornas formadas entre
+                    corais,
+                    além de estuários, mangues, areia branca e coqueirais
+                </p>
+            </div>
         </div>
 
-        <div class="boxinfo">
-            <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/04/brasilia.jpg" alt=""
-                class="imagens">
-            <strong>Brasília-DF</strong>
-            <p>
-                Brasília é palco de intensas transformações e repleta de diversidades, tanto do ponto de vista
-                econômico, em relação à distribuição de renda, quanto do ponto de vista social, ao se analisar a
-                população que contempla a capital e todo seu entorno, nas regiões administrativas.
-            </p>
-        </div>
-
-        <div class="boxinfo">
-            <img src="https://www.core-sp.org.br/imagens/2023-07/5/sp%20cidade%20ok.png" alt="" class="imagens">
-            <strong>São Paulo-SP</strong>
-            <p>
-                A maior metrópole do Brasil tem se destacado cada vez mais como um importante destino de lazer. Repleta
-                de atrações culturais, gastronômicas e de entretenimento.
-            </p>
-        </div>
-
-        <div class="boxinfo">
-            <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/03/1-cristo-redentor.jpg" alt=""
-                class="imagens">
-            <strong>Rio de Janeiro-RJ</strong>
-            <p>
-                O Rio de Janeiro é uma grande cidade brasileira à beira-mar, famosa pelas praias de Copacabana e
-                Ipanema, pela estátua de 38 metros de altura do Cristo Redentor, no topo do Corcovado, e pelo Pão de
-                Açúcar, um pico de granito com teleféricos até seu cume.
-            </p>
-        </div>
-
-        <div class="boxinfo">
-            <img src="https://emcasa.com/blog/wp-content/uploads/2022/06/Belo_Horizonte_2.jpg" alt="" class="imagens">
-            <strong>Belo Horizonte-MG</strong>
-            <p>
-                A cidade de Belo Horizonte está localizada na porção central do estado de Minas Gerais. O município está
-                assentado ao longo da serra do Curral, formação geomorfológica marcada pelas elevadas altitudes.
-            </p>
-        </div>
-
-        <div class="boxinfo">
-            <img src="https://sonharemorar.mrv.com.br/wp-content/uploads/2023/05/custo-de-vida-em-curitiba.webp" alt=""
-                class="imagens">
-            <strong>Curitiba-PR</strong>
-            <p>
-                Curitiba é uma cidade linda, com muitas áreas verdes distribuídas por suas diversas praças, parques e
-                bairros. No Centro, a beleza fica por conta da vida intensa nas ruas e dos edifícios e mansões do século
-                XIX, em contraste com as construções art-déco, ecléticas, neo-góticas.
-            </p>
-        </div>
-
-        <div class="boxinfo">
-            <img src="https://a.cdn-hotels.com/gdcs/production74/d54/79c669d3-5325-4c3f-94d2-e76d7f3fabc4.jpg?impolicy=fcrop&w=800&h=533&q=medium"
-                alt="" class="imagens">
-            <strong>Fortaleza-CE</strong>
-            <p>
-                Fortaleza é a capital do estado do Ceará, no Nordeste brasileiro. A cidade é conhecida por suas praias,
-                com falésias vermelhas, palmeiras, dunas e lagoas. As tradições folclóricas da cidade podem ser vistas
-                em apresentações de dança no Theatro José de Alencar.
-            </p>
-        </div>
-
-        <div class="boxinfo">
-            <img src="https://www.cvc.com.br/dicas-de-viagem/wp-content/uploads/2023/05/maragogi-porto-de-galinhas-vista-1170x650.jpg"
-                alt="" class="imagens">
-            <strong>Porto de Galinhas-PE</strong>
-            <p>
-                Porto de Galinhas é uma praia localizada no distrito homônimo, pertencente ao município de Ipojuca, no
-                estado de Pernambuco, Brasil. A região possui piscinas de águas claras e mornas formadas entre corais,
-                além de estuários, mangues, areia branca e coqueirais
-            </p>
+        <div class="final">
+            <h4>Todos os direitos reservados.</h4>
         </div>
     </div>
-
-    <table>
-        <tr>
-            <td colspan="2" ; class="final">
-                <h4>Todos os direitos reservados.</h4>
-            </td>
-        </tr>
-    </table>
 
 </body>
 
