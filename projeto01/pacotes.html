@@ -28,6 +28,7 @@
             margin-right: 100px;
             font-size: 16px;
         }
+
         .imagem {
             width: 850px;
             height: 400px;
@@ -47,12 +48,14 @@
 
         .cadastro {
             padding: 4px;
+            text-align: start;
         }
 
         .cadastro strong {
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1em;
         }
+
         .final {
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
@@ -64,6 +67,8 @@
 </head>
 
 <body>
+
+    <div class="divPrincipal">
 
     <table border="0" width="100%" cellspacing="5" cellpadding="10" align="center">
 
@@ -86,98 +91,96 @@
         </tr>
     </table>
 
-    <div class="divPrincipal">
+    <div class="formatImagem">
+        <img src="img/img_pacotes.png" alt="Logo pacotes de viagem" class="imagem">
+    </div>
 
-        <div class="formatImagem">
-            <img src="img/img_pacotes.png" alt="Logo pacotes de viagem" class="imagem">
-        </div>
+    <div class="principalCadastro">
+        <form action="#" method="post" target="_blank">
 
-        <div class="principalCadastro">
-            <form action="#" method="post" target="_blank">
+            <div class="cadastro">
+                <strong>Origem:</strong>
+                <select name="estados">
+                    <option value=" " selected>--Escolha--</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantis</option>
+                </select>
+            </div>
 
-                <div class="cadastro">
-                    <strong>Origem:</strong>
-                    <select name="estados">
-                        <option value=" " selected>--Escolha--</option>
-                        <option value="AC">Acre</option>
-                        <option value="AL">Alagoas</option>
-                        <option value="AP">Amapá</option>
-                        <option value="AM">Amazonas</option>
-                        <option value="BA">Bahia</option>
-                        <option value="CE">Ceará</option>
-                        <option value="DF">Distrito Federal</option>
-                        <option value="ES">Espírito Santo</option>
-                        <option value="GO">Goiás</option>
-                        <option value="MA">Maranhão</option>
-                        <option value="MT">Mato Grosso</option>
-                        <option value="MS">Mato Grosso do Sul</option>
-                        <option value="MG">Minas Gerais</option>
-                        <option value="PA">Pará</option>
-                        <option value="PB">Paraíba</option>
-                        <option value="PR">Paraná</option>
-                        <option value="PE">Pernambuco</option>
-                        <option value="PI">Piauí</option>
-                        <option value="RJ">Rio de Janeiro</option>
-                        <option value="RN">Rio Grande do Norte</option>
-                        <option value="RS">Rio Grande do Sul</option>
-                        <option value="RO">Rondônia</option>
-                        <option value="RR">Roraima</option>
-                        <option value="SC">Santa Catarina</option>
-                        <option value="SP">São Paulo</option>
-                        <option value="SE">Sergipe</option>
-                        <option value="TO">Tocantis</option>
-                    </select>
-                </div>
+            <div class="cadastro">
+                <strong>Destinos:</strong>
+                <select name="cidades">
+                    <option value=" " selected>--Escolha--</option>
+                    <option value="Teresina">Teresina-PI</option>
+                    <option value="Brasília">Brasília-DF</option>
+                    <option value="São Paulo">São Paulo-SP</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro-RJ</option>
+                    <option value="Belo Horizonte">Belo Horizonte-MG</option>
+                    <option value="Curitiba">Curitiba-PR</option>
+                    <option value="Fortaleza">Fortaleza-CE</option>
+                    <option value="Porto de Galinhas">Porto de Galinhas-PE</option>
+                </select>
+            </div>
 
-                <div class="cadastro">
-                    <strong>Destinos:</strong>
-                    <select name="cidades">
-                        <option value=" " selected>--Escolha--</option>
-                        <option value="Teresina">Teresina-PI</option>
-                        <option value="Brasília">Brasília-DF</option>
-                        <option value="São Paulo">São Paulo-SP</option>
-                        <option value="Rio de Janeiro">Rio de Janeiro-RJ</option>
-                        <option value="Belo Horizonte">Belo Horizonte-MG</option>
-                        <option value="Curitiba">Curitiba-PR</option>
-                        <option value="Fortaleza">Fortaleza-CE</option>
-                        <option value="Porto de Galinhas">Porto de Galinhas-PE</option>
-                    </select>
-                </div>
+            <div class="cadastro">
+                <strong>Data de partida:</strong>
+                <input type="date" name="datePar" id="datePar">
+            </div>
 
-                <div class="cadastro">
-                    <strong>Data de partida:</strong>
-                    <input type="date" name="datePar" id="datePar">
-                </div>
+            <div class="cadastro">
+                <strong>Data de retorno:</strong>
+                <input type="date" name="dateRet" id="dateRet">
+            </div>
 
-                <div class="cadastro">
-                    <strong>Data de retorno:</strong>
-                    <input type="date" name="dateRet" id="dateRet">
-                </div>
+            <div class="cadastro">
+                <strong>Quartos:</strong>
+                <input type="number" name="nquartos" id="nquartos" value="1" min="1" max="10">
+            </div>
 
-                <div class="cadastro">
-                    <strong>Quartos:</strong>
-                    <input type="number" name="nquartos" id="nquartos" value="1" min="1" max="10">
-                </div>
+            <div class="cadastro">
+                <strong>Quantidade de adultos:</strong>
+                <input type="number" name="nadulto" id="nadulto" value="0" min="0">
+            </div>
 
-                <div class="cadastro">
-                    <strong>Quantidade de adultos:</strong>
-                    <input type="number" name="nadulto" id="nadulto" value="0" min="0">
-                </div>
+            <div class="cadastro">
+                <strong>Quantidade de crianças:</strong>
+                <input type="number" name="ncrianca" id="ncrianca" value="0" min="0">
+            </div>
 
-                <div class="cadastro">
-                    <strong>Quantidade de crianças:</strong>
-                    <input type="number" name="ncrianca" id="ncrianca" value="0" min="0">
-                </div>
+            <div class="cadastro">
+                <input type="button" value="Buscar pacote">
+            </div>
 
-                <div class="cadastro">
-                    <input type="button" value="Buscar pacote">
-                </div>
-
-            </form>
-        </div>
-        <div class="final">
-            <h4>Todos os direitos reservados.</h4>
-        </div>
+        </form>
+    </div>
+    <div class="final">
+        <h4>Todos os direitos reservados.</h4>
+    </div>
     </div>
 </body>
 
