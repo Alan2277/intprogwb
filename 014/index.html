@@ -8,24 +8,36 @@
         type="image/x-icon">
     <!-- <link rel="stylesheet" href="css/style.css"> -->
     <style>
-
-        .box{
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container1{
+            display: flex;
+        }
+        .box-1{
             background: url(img/camera.png);
             width:300px;
             height: 300px;
             margin: 50px;
             box-sizing: border-box;
             box-shadow: 10px 10px 5px #888888;
-            /* float: left; */
+            float: left
         }
-        .box h1{
+        .box-1 h1{
             background: rgba(255,255,255,0.5);
+            opacity: 0.6;
             text-shadow: 3px 3px 3px orange;
         }
-        .box p{
+        .box-1 p{
             color: white;
             padding: 8px;
             text-align: justify;
+        }
+        .container2{
+            display: flex;
+            float: left;
         }
         .box2{
             display: flex;
@@ -33,21 +45,54 @@
             justify-content: center;
             width: 550px;
             height: 150px;
-            margin: 10px;
-            background-color: orange;
-            border-radius: 10px;
+            margin: 20px;
+            background-color: #EBA39D;
+            border-radius: 5px;
+            box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.3);
         }
         .box2-1{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
             width: 500px;
             height: 120px;
-            border: 3px dashed white;
+            border: 2px dashed white;
             border-radius: 10px;
         }
         .box2-1 p{
             color: white;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        .container3{
+            display: flex;
+            float: left;
+        }
+
+        .box-gradient{
+            background: linear-gradient(to top left,yellow,red);
+            width:300px;
+            height: 300px;
+            margin: 50px;
+            box-sizing: border-box;
+        }
+        .box-gradient h1{
+            background: rgba(255,255,255,0.5);
+        }
+        .box-gradientL{
+            background: linear-gradient(to top right, #18E1E5, #DD08F2, #10EF06,#D3280B);
+            width:300px;
+            height: 300px;
+            margin: 50px;
+            box-sizing: border-box;
+        }
+        .box-gradientR{
+            width:950px;
+            height: 130px;
+            margin: 50px;
+            box-sizing: border-box;
+            background: radial-gradient(red, yellow, green);
         }
     </style>
     <title>Atividade 14 - Alan</title>
@@ -55,30 +100,47 @@
 
 <body>
     <h1>Atividade 14 - Transpârencias, Sombras, Gradientes.</h1>
-    <!-- <div class="top1">
-        <div class="box">
+    <div class="container1">
+        <div class="box-1">
             <h1>RGBA</h1>
             <p>No RGBA a tranparência é localiza somente em em determinado elemento, assim se coloco para ter transparência em uma box s vai ser exibida naquela box sem afetar os outros elementos que estão dentro dela. <br>Sintaxe de utilização:  'background: rgb(255,255,255,x)' <br>x: Vária de 0 à 1 para o nível de transparência.</p>
         </div>
-        <div class="box">
+        <div class="box-1">
             <h1>OPACITY</h1>
-            <p>Á opacidade é diferente do RGBA quando colocar a tag opacidade ela também influência nos demais elementos, desse modo, a tag pai que está com opacidade determina que seus filhos também vão ter aquela mesma opacidade. <br>Sintaxe: 'opacity: x' <br>x: Vária de 0 à 1 para o nível de transparência.</p>
+            <p>A opacidade é diferente do RGBA quando colocar a tag opacidade ela também influência nos demais elementos, desse modo, a tag pai que está com opacidade determina que seus filhos também vão ter aquela mesma opacidade. <br>Sintaxe: 'opacity: x' <br>x: Vária de 0 à 1 para o nível de transparência.</p>
         </div>
-    </div> -->
-    
-    
-    <hr>
+    </div>
 
-    <div class="box2">
-        <div class="box2-1">
-            <p>Shadow 1</p>
+    <div class="container2">
+        <div class="box2">
+            <div class="box2-1">
+                <p>Shadow 1</p>
+            </div>
+        </div>
+        <div class="box2" style="background-color: #EDE799;">
+            <div class="box2-1">
+                <p>Shadow 2</p>
+            </div>
         </div>
     </div>
-    <div class="box2">
-        <div class="box2-1">
-            <p>Shadow 2</p>
+
+    <div class="container3">
+
+        <div class="box-gradient">
+            <h1>Lorem Ipsum</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, tempora earum enim iure nisi veniam ducimus eligendi consectetur, temporibus recusandae deserunt exercitationem eaque veritatis consequuntur quidem officiis ut alias distinctio.</p>
+        </div>
+        <div class="box-gradientL">
+
+        </div>
+    
+        <div class="box-gradientR">
+    
         </div>
     </div>
+
+
+
 </body>
 
 </html>
