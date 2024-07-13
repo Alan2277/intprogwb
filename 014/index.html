@@ -18,7 +18,7 @@
         }
         .box-1{
             background: url(img/camera.png);
-            width:300px;
+            width: 300px;
             height: 300px;
             margin: 50px;
             box-sizing: border-box;
@@ -26,8 +26,7 @@
             float: left
         }
         .box-1 h1{
-            background: rgba(255,255,255,0.5);
-            opacity: 0.6;
+            background: rgba(255,255,255,0.5);;
             text-shadow: 3px 3px 3px orange;
         }
         .box-1 p{
@@ -35,6 +34,7 @@
             padding: 8px;
             text-align: justify;
         }
+
         .container2{
             display: flex;
             float: left;
@@ -65,29 +65,33 @@
             font-family: Arial, Helvetica, sans-serif;
             font-size: 20px;
         }
+
         .container3{
             display: flex;
             float: left;
         }
-
-        .box-gradient{
+        .box-3{
             background: linear-gradient(to top left,yellow,red);
             width:300px;
             height: 300px;
             margin: 50px;
             box-sizing: border-box;
         }
-        .box-gradient h1{
+        .box-3 h1{
             background: rgba(255,255,255,0.5);
         }
-        .box-gradientL{
+        .box-3 p{
+            padding: 5px;
+            text-align: justify;
+        }
+        .box-3-L{
             background: linear-gradient(to top right, #18E1E5, #DD08F2, #10EF06,#D3280B);
             width:300px;
             height: 300px;
             margin: 50px;
             box-sizing: border-box;
         }
-        .box-gradientR{
+        .box-3-R{
             width:950px;
             height: 130px;
             margin: 50px;
@@ -100,16 +104,20 @@
 
 <body>
     <h1>Atividade 14 - Transpârencias, Sombras, Gradientes.</h1>
+
     <div class="container1">
+     
         <div class="box-1">
             <h1>RGBA</h1>
             <p>No RGBA a tranparência é localiza somente em em determinado elemento, assim se coloco para ter transparência em uma box s vai ser exibida naquela box sem afetar os outros elementos que estão dentro dela. <br>Sintaxe de utilização:  'background: rgb(255,255,255,x)' <br>x: Vária de 0 à 1 para o nível de transparência.</p>
         </div>
+
         <div class="box-1">
-            <h1>OPACITY</h1>
+            <h1 style="opacity: 0.6;">OPACITY</h1>
             <p>A opacidade é diferente do RGBA quando colocar a tag opacidade ela também influência nos demais elementos, desse modo, a tag pai que está com opacidade determina que seus filhos também vão ter aquela mesma opacidade. <br>Sintaxe: 'opacity: x' <br>x: Vária de 0 à 1 para o nível de transparência.</p>
         </div>
     </div>
+
 
     <div class="container2">
         <div class="box2">
@@ -126,18 +134,13 @@
 
     <div class="container3">
 
-        <div class="box-gradient">
+        <div class="box-3">
             <h1>Lorem Ipsum</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, tempora earum enim iure nisi veniam ducimus eligendi consectetur, temporibus recusandae deserunt exercitationem eaque veritatis consequuntur quidem officiis ut alias distinctio.</p>
         </div>
-        <div class="box-gradientL">
-
-        </div>
+        <div class="box-3-L"></div>
     
-        <div class="box-gradientR">
-    
-        </div>
-    </div>
+        <div class="box-3-R"></div></div>
 
 
 
