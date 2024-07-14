@@ -1,0 +1,38 @@
+body {
+    background-color: white
+}
+
+body h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    background: #b9c941;
+    width: 320px;
+    height: 180px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 40px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 0;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.box-color {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
