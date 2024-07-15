@@ -29,6 +29,7 @@
             width: 550px;
             height: 400px;
             padding: 10px;
+            justify-content: space-around;
         }
 
         .container {
