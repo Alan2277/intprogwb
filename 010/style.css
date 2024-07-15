@@ -1,0 +1,109 @@
+        body {
+            background-color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .box-master {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .post {
+            display: flex;
+            flex-direction: column;
+            width: 600px;
+            height: 550px;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+        }
+
+        .box {
+            width: 550px;
+            padding: 10px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .logo {
+            width: 30px;
+            padding-bottom: 10px;
+        }
+
+        p {
+            font-size: 23px;
+            text-align: start;
+            margin: 0px;
+            padding-bottom: 10px;
+            color: black;
+        }
+
+        .img-news {
+            display: flex;
+            width: 150px;
+            height: 100px;
+            border-radius: 10px;
+            margin-left: 20px;
+            float: right;
+            justify-content: center;
+            margin-top: 5px;
+
+        }
+
+        .box-footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 5px;
+        }
+
+        .text-footer {
+            font-size: 17px;
+            color: black;
+            opacity: 0.5;
+        }
+
+        .logo-footer {
+            width: 40px;
+        }
+
+        hr {
+            opacity: 0.4;
+        }
+
+        a:link {
+            /* Não visitados */
+            text-decoration: none;
+            color: cadetblue;
+        }
+
+        a:visited {
+            /* Visitados */
+            color: brown;
+        }
+
+        a:hover {
+            /* Passar o mouse */
+            opacity: 0.6;
+        }
+
+        a:hover p {
+            color: blue
+        }
+
+        a:active {
+            /* Clicado */
+            opacity: 0.6;
+            color: chocolate;
+        }
