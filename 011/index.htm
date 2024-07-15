@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/438771627854024704/Az4OY07a_400x400.png"
+        type="image/x-icon">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body{
+            background-color: white;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+        .pessoa{
+            color: red;
+        }
+        /* .pessoa::before{
+            content: 'antes';
+        }
+        .pessoa::after{
+            content: 'depois';
+        } */
+    </style>
+    <title>Atividade 11 - Alan</title>
+
+    <script type="text/javascript">
+        function mostrarvalor(componente){
+            var nome = componente.getAttribute('data-nome');
+            var idade = componente.getAttribute('data-idade');
+            var cpf = componente.getAttribute('data-cpf');
+            alert('Nome: ${nome}');
+        }
+    </script>
+
+</head>
+
+<body>
+    <h1>Atividade 11 - Atributo Data</h1>
+
+    <ul>
+        <li class="pessoa" onclick="mostrarvalor(this)"  data-nome="João" data-idade="20" data-cpf = "999">João</li>
+        <li class="pessoa" onclick="mostrarvalor(this)" data-idade="José">José</li>
+        <li class="pessoa" onclick="mostrarvalor(this)" data-idade="Maria">Maria</li>
+
+        <button onclick="mostrarvalor(this)">Mostrar details</button>
+    </ul> 
+    
+</body>
+
+</html>
