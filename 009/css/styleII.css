@@ -43,7 +43,7 @@ h2 {
 .box-conteudo {
     display: flex;
     flex-direction: row;
-    margin-top: 138px;
+    margin-top: 137px;
 }
 
 .box-content {
@@ -72,7 +72,7 @@ h2 {
     justify-content: center;
     background-color: brown;
     width: 100%;
-    height: 43.3px;
+    height: 44.3px;
 }
 
 p {
