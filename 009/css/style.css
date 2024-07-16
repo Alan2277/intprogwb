@@ -43,20 +43,20 @@ h2 {
 .box-left {
     background-color: rgb(110, 214, 119);
     width: 25%;
-    height: 270px;
+    height: 170px;
     padding-left: 10px;
 }
 
 .box-center {
     background-color: #547A46;
-    height: 270px;
+    height: 170px;
     width: 50%;
     padding-left: 10px;
 }
 
 .box-right {
     background-color: orange;
-    height: 270px;
+    height: 170px;
     width: 25%;
     padding-left: 10px;
 }
