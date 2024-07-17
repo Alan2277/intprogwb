@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.pessoa {
+    color: red;
+}
+
+/* .pessoa::before{
+    content: 'antes';
+}
+.pessoa::after{
+    content: 'depois';
+} */
