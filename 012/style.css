@@ -10,9 +10,12 @@ h1 {
 .pessoa {
     color: red;
 }
+.pessoa[data-idade='30']{
+    color: blue;
+}
 
 /* .pessoa::before{
-    content: 'antes';
+    onclick()
 }
 .pessoa::after{
     content: 'depois';
