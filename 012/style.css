@@ -20,12 +20,3 @@ h1 {
 .pessoa::after{
     content: 'depois';
 } */
-.pessoa::after {
-    content: " Fim dos detalhes.";
-    font-style: italic;
-    display: none;
-}
-
-.pessoa-contant.mostrar-after::after{
-    color: black;
-}
