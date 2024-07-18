@@ -6,6 +6,10 @@ h1 {
     display: flex;
     justify-content: center;
 }
+h2{
+    margin-left: 10px;
+    font-size: 29px;
+}
 
 .pessoa {
     color: red;
@@ -16,4 +20,9 @@ h1 {
 
 .pessoa::before{
     content: "Nome: "attr(data-nome) " - " "Idade: " attr(data-idade) " - " "C.P.F: " attr(data-cpf) 
+}
+
+li{
+    padding-top: 5px;
+    font-size: 19px;
 }
