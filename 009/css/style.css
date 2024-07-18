@@ -24,12 +24,12 @@ h2 {
 .box-header {
     background-color: #4B51A5;
     height: 4rem;
-    width: 120rem;
+    width: 100%;
 }
 
 .box-main {
     background-color: #B94C60;
-    width: 120rem;
+    width: 100%;
     height: 3rem;
     margin-top: 3.938rem;
 }
