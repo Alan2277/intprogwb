@@ -14,9 +14,6 @@ h1 {
     color: blue;
 }
 
-/* .pessoa::before{
-    onclick()
+.pessoa::before{
+    content: "Nome: "attr(data-nome) " - " "Idade: " attr(data-idade) " - " "C.P.F: " attr(data-cpf) 
 }
-.pessoa::after{
-    content: 'depois';
-} */
