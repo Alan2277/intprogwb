@@ -9,19 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <title>Atividade 12 - Alan</title>
 
-    <script type="text/javascript">
-        function mostrarvalor(button){
-            const pessoa = button.parentElement;
-            const content = pessoa.querySelector('.pessoa-content');
-            const nome = pessoa.getAttribute('data-nome');
-            const idade = pessoa.getAttribute('data-idade');
-            const cpf = pessoa.getAttribute('data-cpf');
-            content.textContent =`Nome: ${nome} - Idade: ${idade} - C.P.F= ${cpf}` 
-            content.classList.add(`mostrar-after`);
-
-        }
-    </script>
-
 </head>
 
 <body>
@@ -29,22 +16,11 @@
 
     <h2>Pessoas</h2>
 
-    <div class="pessoa" data-nome="João" data-idade="20" data-cpf = "999">
-        <h3>João</h3>
-        <p class="pessoa-content"></p>
-        <button onclick="mostrarvalor(this)">Mostrar Detalhes</button>
-    </div>
-    <div class="pessoa" data-nome="José" data-idade="30" data-cpf="888">
-        <h3>José</h3>
-        <p class="pessoa-content"></p>
-        <button onclick="mostrarvalor(this)">Mostrar Detalhes</button>
-    </div>
-    <div class="pessoa" data-nome="Maria" data-idade="40" data-cpf="777">
-        <h3>Maria</h3>
-        <p class="pessoa-content"></p>
-        <button onclick="mostrarvalor(this)" >Mostrar Detalhes</button>
-    </div>
-    
+    <ul>
+        <li class="pessoa" data-nome="João" data-idade="20" data-cpf="999">João</li>
+        <li class="pessoa" data-nome="José" data-idade="30" data-cpf="888">José</li>
+        <li class="pessoa" data-nome="Maria" data-idade="40" data-cpf="777">Maria</li>
+    </ul>
 </body>
 
 </html>
