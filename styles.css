@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    padding: 60px;
+    padding-top: 30px;
     background-color: #8FBC8F
 }
 
@@ -20,24 +20,20 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 50px
+    gap: 25px
 }
 
 .post1 {
     padding-top: 20px;
     position: relative;
-    width: 550px;
-    height: 750px;
+    width: 57.125rem;
+    height: 55.375rem;
     background-color: #DCDCDC;
     border-radius: 30px;
     box-shadow: 0 0 50px #006400;
     overflow: hidden;
     flex-direction: row;
     justify-content: flex-start;
-}
-
-.post1:hover {
-    animation: animate 1s linear infinite;
 }
 
 @keyframes animate {
@@ -74,18 +70,13 @@ a {
 
 .post2 {
     padding-top: 20px;
-    position: relative;
-    width: 550px;
-    height: 750px;
+    /* position: relative; */
+    width: 57.125rem;
+    height: 55.375rem;
     background-color: #DCDCDC;
     border-radius: 30px;
     box-shadow: 0 0 50px #006400;
-    overflow: hidden;
-    flex-direction: row;
-}
-
-.post2:hover {
-    animation: animate 1s linear infinite;
+    overflow: auto;
 }
 
 @keyframes animate {
@@ -98,7 +89,7 @@ a {
     padding-left: 70px;
 }
 
-ul {
+#pai {
     list-style-type: none;
     display: flex;
     position: relative;
@@ -109,7 +100,7 @@ ul {
 
 }
 
-ul li {
+#pai li {
     width: 55px;
     height: 55px;
     background-color: rgb(237, 231, 231);
@@ -122,36 +113,36 @@ ul li {
     transition: .2s;
 }
 
-ul li div {
+#pai #filho div {
     position: absolute;
 }
 
-ul li:hover {
+#pai #filho:hover {
     width: 180px;
 }
 
-ul li .icon {
+#pai #filho .icon {
     color: #C0C0C0;
     font-size: 30px;
     transition: .2s;
 }
 
-ul li .text {
+#pai #filho .text {
     color: white;
     font-size: 15px;
     transform: scale(0);
     transition-delay: .1.5s;
 }
 
-ul li:hover .text {
+#pai #filho:hover .text {
     transform: scale(1)
 }
 
-ul li:hover .icon {
+#pai #filho:hover .icon {
     transform: scale(0);
 }
 
-ul li::before {
+#pai #filho::before {
     content: '';
     position: absolute;
     background-image: linear-gradient(45deg, var(--cor1), var(--cor2));
@@ -160,6 +151,55 @@ ul li::before {
     border-radius: 50px;
 }
 
-ul li:hover::before {
+#pai #filho:hover::before {
     opacity: 1;
+}
+
+.box-models{
+    width: 54.84rem;
+    height: auto;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin: 10px;
+    overflow: auto;
+    justify-content: space-around;
+}
+
+.boxs1{
+    width: 180px;
+    height: 200px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px 5px 5px 28px;
+    background-color: #739773;
+    float: left;
+    justify-content: space-around;
+    padding: 3px;
+}
+.box-projeto{
+    width: 180px;
+    height: 200px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px 5px 5px 28px;
+    background-color: #50c404;
+    float: left;
+    justify-content: space-around;
+    padding: 3px;
+
+}
+h4{
+    margin-top: -18px;
+}
+
+.format-img{
+    width: 120px;
+    height: 130px;
+}
+a:hover{
+    opacity: 0.6;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
