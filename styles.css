@@ -10,7 +10,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #8FBC8F
 }
 
@@ -20,20 +21,21 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 25px
 }
 
 .post1 {
-    padding-top: 20px;
+    padding-top: 10px;
     position: relative;
-    width: 57.125rem;
-    height: 55.375rem;
+    width: 745px;
+    height: 700px;
     background-color: #DCDCDC;
     border-radius: 30px;
     box-shadow: 0 0 50px #006400;
     overflow: hidden;
     flex-direction: row;
     justify-content: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 @keyframes animate {
@@ -69,14 +71,20 @@ a {
 }
 
 .post2 {
-    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
     /* position: relative; */
-    width: 57.125rem;
-    height: 55.375rem;
+    width: 745px;
+    height: 700px;
     background-color: #DCDCDC;
     border-radius: 30px;
     box-shadow: 0 0 50px #006400;
     overflow: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 @keyframes animate {
@@ -156,13 +164,27 @@ a {
 }
 
 .box-models{
-    width: 54.84rem;
+    width: 700px;
     height: auto;
     border: 2px solid green;
     border-radius: 20px;
-    margin: 10px;
-    overflow: auto;
-    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    overflow-y: scroll;
+    justify-content: center;
+}
+.box-models::-webkit-scrollbar{
+    width: 10px;
+    height: 7px;
+}
+.box-models::-webkit-scrollbar-track {
+    background: #a6e7b0;
+    border-radius: 20px;
+}
+
+.box-models::-webkit-scrollbar-thumb {
+    background: green;
+    border-radius: 10px;
 }
 
 .boxs1{
@@ -173,8 +195,9 @@ a {
     margin: 10px 5px 5px 28px;
     background-color: #739773;
     float: left;
-    justify-content: space-around;
+    justify-content: center;
     padding: 3px;
+    
 }
 .box-projeto{
     width: 180px;
@@ -184,7 +207,7 @@ a {
     margin: 10px 5px 5px 28px;
     background-color: #50c404;
     float: left;
-    justify-content: space-around;
+    justify-content: center;
     padding: 3px;
 
 }
@@ -193,8 +216,8 @@ h4{
 }
 
 .format-img{
-    width: 120px;
-    height: 130px;
+    width: 100px;
+    height: 120px;
 }
 a:hover{
     opacity: 0.6;
