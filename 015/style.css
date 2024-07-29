@@ -1,0 +1,47 @@
+body {
+    background: white;
+}
+
+.box{
+    position: relative;
+    left: 10px;
+    top: 50px;
+    width: 150px;
+    height: 150px;
+    background: red;
+    animation: minhaAnimacao 5s 0s infinite alternate;
+}
+
+@keyframes minhaAnimacao {
+    20% {
+        rotate: 90deg;
+        left: 200px;
+        background: powderblue;
+        animation-delay: 10s;
+    }
+    40% {
+        left: 300px;
+        rotate: 180deg;
+        background: green;
+        animation-delay: 10s;
+    }
+    60% {
+        left: 400px;
+        rotate: 270deg;
+        background: gray;
+        animation-delay: 10s;
+    }
+    80% {
+        rotate: 360deg;
+        left: 500px;
+        background: lightsalmon;    
+        animation-delay: 10s;
+    }
+    100% {
+        background: yellow;
+        rotate: 450deg;
+        left: 600px;
+        animation-delay: 10s;
+    }
+
+}
