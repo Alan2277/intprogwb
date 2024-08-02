@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.box-button{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    text-align: center;
+    
+}
+.link{
+    margin-top: 500px;
+}
+a{
+    margin: 10px;
+}
+button{
+    text-align: center;
+    justify-content: center;
+}
