@@ -8,3 +8,9 @@ li{
     list-style-type: none;
     margin-right: 6px;
 }
+.link{
+    margin-top: 500px;
+}
+a{
+    margin: 10px;
+}
