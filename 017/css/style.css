@@ -4,30 +4,30 @@
 }
 .linha{
     /* background: #FFEBCD; */
-    /* border: 2px solid black; */
+    border: 2px solid black;
     
 }
 .coluna{
     /* background: #87CEEB; */
-    /* border: 1px solid green; */
+    border: 1px solid green;
 
     
 }
 .format-gato1{
-    width: 500px;
+    width: 390px;
     height: 604px;
 }
 .format-gato2{
-    width: 647px;
+    width: 547px;
     height: 200px;
 }
 .format-gato3{
-    width: 285px;
+    width: 90%;
     height: 180px;
     margin-top: 10px;    
 }
 .format-gato4{
-    width: 164px;
+    width: 184px;
     height: 200px;
     margin-top: 10px;
     margin-right: 10px;
