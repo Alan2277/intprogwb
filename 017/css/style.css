@@ -1,34 +1,34 @@
 .conteudo{
-    /* background: #dcdcdc; */
-    border: 2px solid blue;
     margin-top: 10px;
+
 }
 .linha{
     /* background: #FFEBCD; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     
 }
 .coluna{
     /* background: #87CEEB; */
     /* border: 1px solid green; */
+
     
 }
 .format-gato1{
-    width: 420px;
-    height: 500px;
+    width: 500px;
+    height: 604px;
 }
 .format-gato2{
-    width: 588px;
-    height: 150px;
+    width: 647px;
+    height: 200px;
 }
 .format-gato3{
-    width: 280px;
-    height: 160px;
-    margin-top: 10px;
+    width: 285px;
+    height: 180px;
+    margin-top: 10px;    
 }
 .format-gato4{
-    width: 160px;
-    height: 170px;
+    width: 164px;
+    height: 200px;
     margin-top: 10px;
-
+    margin-right: 10px;
 }
