@@ -1,0 +1,23 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3F3;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    width: 8rem;
+    height: 6rem;
+    margin: 10px;
+}
+
+.icon {
+    font-size: 2em;
+    padding-bottom: 2px;
+}
+
+.link {
+    margin: 20px;
+    display: flex;
+    justify-content: end;
+}
