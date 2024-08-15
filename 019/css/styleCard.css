@@ -1,4 +1,4 @@
-.card-master{
+.box-master{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,82 +7,33 @@
     border: transparent;
     background-color: #EBEFF5;
     width: 23rem;
-    height: 38rem;
+    height: 42rem;
     padding: 20px;
-    
 
+}
+.box-master h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    align-self: start;
+    padding-bottom: 15px;
 }
 .card{
     width: 21rem;
-    padding: 10px;
-    border-top: 6px solid blue; /* Borda azul sólida no topo */
-    border-right: 6px solid transparent; /* Bordas laterais transparentes */
-    border-bottom: 6px solid transparent; /* Borda inferior transparente */
-    border-left: 6px solid transparent; /* Bordas laterais transparentes */
-    border-radius: 0; /* Remove qualquer arredondamento */
-}
-
-h2{
-    font-family:Arial, Helvetica, sans-serif ;
-    font-size: 28px;
-    align-self: start;
-}
-/* .head-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
+    padding: 15px;
     border: transparent;
-    border: 6px solid blue;
-} */
-.img-fluid{
-    width: 200px;
-    height: 200px;
-    object-fit: fill;
+    border-top: 6px solid blue;
 }
-
-.format-title h4{
-    margin-bottom: 15px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.format-title h6{
-    opacity: 0.6;
-    /* margin-bottom: 7px; */
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-}
-
 
 .head-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
     border: 6px solid #ccc;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.format-box img {
-    position: absolute;
-
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid white; /* Borda branca ao redor da imagem */
-    /* z-index: 1; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
+    margin-bottom: 15px;
 }
 
 .format-box {
@@ -93,92 +44,32 @@ h2{
    
 }
 
-
-
-.d-grid{
-    margin-top: 0.30rem;
+.format-box img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-.alinhamento{
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-}
-
-.title h6{
-    opacity: 0.7;
-}
-
-head-img{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.title{
+.format-title h3{
     display: flex;
     flex-direction: column;
     text-align: center;
-} */
+    font-size: 30px;
+    margin-bottom: 15px;
+}
 
-
-/* .container{
-    position: relative
-} */
-
-
-
-
-/* .imga{
-    width: 130px;
-    height: 130px;
-    position: absolute;
-    border: 5px solid lightgray;
-    border-radius: 150px  ;
+.format-title h5{
     display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+    flex-direction: column;
+    text-align: center;
+    opacity: 0.6;
+}
 
-/* .rounded-circle{
-    position: absolute;
-    width: 115px;
-    height: 115px;
-} */
+span h5{
+    color: #189ee6;
+}
+.format-button{
+    margin-top: 15px;
+ }
 
-/* .card{
-    margin-top: 1.20rem;
-} */
-
-/* .test{
-    display: flex;
-    flex-direction: row;
-    justify-content: center; */
-    /* align-items: center; */
-/* } */
-
-/* .container-master{
-    width: 25rem; height: 36rem; border: 2px solid; margin: 300px; border-radius: 0px; border-color: transparent; background: #EBEFF5;
-} */
