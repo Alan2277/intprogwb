@@ -1,0 +1,125 @@
+.form-group{
+    margin-bottom: 10px;
+}
+.modal-content{
+    padding: 10px;
+}
+.input-body{
+    width: 100%;
+    border-radius: 3px;
+    padding: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    
+}
+.modal-header{
+    justify-content: center;
+}
+hr{
+    opacity: 0.1;
+}
+.modal-header .modal-title{
+    opacity: 0.8;
+}
+
+.input-icon{
+    position: relative;
+    margin-bottom: 10px; 
+}
+.input-icon .icon-input {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-icon:focus{
+    border-color: aqua;
+    outline: none;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+}
+.button-submit{
+    background-color: #3c8dbd;
+    padding: 6px 20px 6px 20px;
+    border: 0px;
+}
+svg{
+    opacity: 0.7;
+}
+
+.modal-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-body .modal-title{
+    text-align: center;
+    opacity: 0.8;
+    margin: 12px;
+}
+.login-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    background-color: #3a5a98;
+    border: 0px;
+    margin-bottom: 10px;
+
+}
+.button-infor{
+    margin-right: 6px;
+    background-color: #3a5a98;
+    border:0px;
+    border-right: 1px solid ;
+}
+.icon-button{
+    width: 30px;
+    height: 30px;
+}
+
+.text-box{
+    display: flex;align-items: center;
+    padding-left: 4px;
+}
+.login-box2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    background-color: #dd4a38;
+    border: 0px;
+    margin-bottom: 10px;
+
+}
+.button-infor2{
+    margin-right: 6px;
+    background-color: #dd4a38;
+    border:0px;
+    border-right: 1px solid ;
+}
+.icon-button2{
+    width: 30px;
+    height: 30px;
+}
+
+.text-box2{
+    display: flex;align-items: center;
+    padding-left: 4px;
+}
+
+a{
+    display: flex;
+    margin-bottom: 6px;
+    
+}
+.links a{
+    text-decoration: none;
+    color: #4892c7;
+}
