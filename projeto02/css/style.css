@@ -1,3 +1,20 @@
 .card-header{
     background-color: white;
 }
+.infor-button{
+    margin-left: 15px;
+}
+.conteudo-seletor{
+    margin-top: 20px;
+}
+.text-seletor{
+    margin-left: 3px;
+    margin-right: 3px
+}
+.t{
+    margin-top: 20px;
+}
+.style-button{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
