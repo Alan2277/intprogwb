@@ -57,21 +57,18 @@
 
             var texto = prompt("Digite um texto qualquer!");
 
-            document.getElementById("minhaDiv").innerHTML = arg
+            document.getElementById("minhaDiv").innerHTML = texto
         }
 
         function ler_numero() {
-            let num = prompt('Informe um número:');
-            
-            // Inicializa um string para armazenar os números
-            let resultado = '';
+            var num = prompt('Informe um número:');
 
-            // Itera sobre cada caractere da string num
-            for (let i = 0; i <= num; i++) {
-                num[i];
-                document.getElementById("numeros").innerHTML = resultado;
+            for (let i = 1; i <= num; i++) {
+                var infor = console.log(i);
+                document.getElementById("numeros").innerHTML = i;
             }
-        }
+
+        };
 
     </script>
 </body>
