@@ -1,9 +1,20 @@
 .informacoes{
     margin-top: 20px;
 }
+
+.informacoesLink{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px; 
+}
+.informacoesLink a{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 16px;
+}
 .inforNumeros{
     margin-top: 10px ;
-    margin-left: 10px ;
     padding: 10px;
     border-radius: 10px;
     background-color: lightsteelblue;

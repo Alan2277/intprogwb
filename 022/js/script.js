@@ -48,3 +48,12 @@ function cont_numeros() {
     document.getElementById("numeros").innerHTML = contador;
 
 }
+
+function modalatv() {
+    var valor = prompt("Informe um valor:");
+    
+    var janelaModal = new bootstrap.Modal(document.getElementById('janela'));
+    janelaModal.show();
+    
+    document.getElementById("conteudoModal").innerHTML = valor;
+}
