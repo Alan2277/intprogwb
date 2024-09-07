@@ -42,7 +42,7 @@ function cont_numeros() {
     var contador = '';
 
     for (var i = 1; i <= numero; i++) {
-        contador += i + "<br>";
+        contador = contador + i + "<br>";
     }
 
     document.getElementById("numeros").innerHTML = contador;
@@ -50,10 +50,10 @@ function cont_numeros() {
 }
 
 function modalatv() {
-    var valor = prompt("Informe um valor:");
-    
+    var valor = prompt("Digite texto qualquer:");
+
     var janelaModal = new bootstrap.Modal(document.getElementById('janela'));
     janelaModal.show();
-    
+
     document.getElementById("conteudoModal").innerHTML = valor;
 }

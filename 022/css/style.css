@@ -1,11 +1,11 @@
 .informacoes{
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 .informacoesLink{
     display: flex;
     flex-direction: row;
-    margin-top: 20px; 
+    margin-top: 2%; 
 }
 .informacoesLink a{
     display: flex;
