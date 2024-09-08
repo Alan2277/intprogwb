@@ -1,0 +1,14 @@
+.box1{
+    height: 100px;
+    width: 150px;
+    background: #428bca;
+}
+.box2{
+    height: 100px;
+    width: 150px;
+    background: #5cb85c;
+    margin-left: 15px;
+}
+.informacoes_json{
+    margin-top: 20px;
+}

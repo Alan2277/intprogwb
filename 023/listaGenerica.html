@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.pinimg.com/originals/0b/7e/f9/0b7ef925861e8606f63b2cba41e84cb9.png"
+        type="image/x-icon">
+    <title>Atividade 23 - Alan</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script language="JavaScript" src="js/script.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="containerFrutas"></div>
+
+        <button onclick="criaListaFrutas()">Criar Array de Frutas</button> <br><br>
+        <button onclick="posicaoFrutas()">Posição no Array de Frutas</button> <br><br>
+        
+        <div id="resultadoFrutas" style="margin-top: 7px; color: green; font-weight: bold;"></div> <br><br>
+
+
+        <div id="containerLinguagens"></div>
+
+        <button onclick="criaListaLinguagens()">Criar Array de Linguagens</button> <br><br>
+        <button onclick="posicaoLinguagens()">Posição no Array de Linguagens</button>
+
+        <div id="resultadoLinguagens" style="margin-top: 7px; color: green; font-weight: bold;"></div> <br><br>
+
+
+        <button type="button" class="btn btn-warning" style="margin-top: 10%;"><a href="index.html">Voltar para a tela inicial</a></button>
+
+    </div>
+
+
+    <script type="text/javascript">
+
+        var lista_generica = {}; 
+
+        lista_generica['frutas'] = ['maçã', 'banana', 'laranja','melancia','manga'];
+
+        lista_generica['numeros'] = [100,88,39,87,3,52,98,1202];      
+
+        lista_generica['linguagens'] = [];
+
+            lista_generica['linguagens'][0] = 'Dart';
+            lista_generica['linguagens'][1] = 'PHP';
+            lista_generica['linguagens'][2] = 'Java';
+            lista_generica['linguagens'][3] = 'Pyton';
+            lista_generica['linguagens'][4] = 'Perl';
+
+        function criaListaFrutas() {
+            const container = document.getElementById('containerFrutas');
+            lista_generica['frutas'].forEach(function (item, index) {
+                container.innerHTML += (index) + ' - ' + item + '<br>'
+            });
+        }
+
+        function posicaoFrutas() {
+            var indice = prompt('Qual posição da lista de frutas deseja?');
+            alert(lista_generica['frutas'][indice]);
+
+            document.getElementById('resultadoFrutas').innerHTML = lista_generica['frutas'][indice];
+        }
+
+
+        function criaListaLinguagens() {
+            const container = document.getElementById('containerLinguagens');
+            lista_generica['linguagens'].forEach(function (item, index) {
+                container.innerHTML += (index) + ' - ' + item + '<br>'
+            });
+        }
+
+        function posicaoLinguagens() {
+            var indice = prompt('Qual posição da lista de Linguagens deseja?');
+            alert(lista_generica['linguagens'][indice]);
+
+            document.getElementById('resultadoLinguagens').innerHTML = lista_generica['linguagens'][indice];
+        }
+
+    </script>
+
+</body>
