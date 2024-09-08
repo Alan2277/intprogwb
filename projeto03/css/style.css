@@ -1,0 +1,97 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 700px;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card-header h3{
+    margin: 10px;
+}
+
+.card-body{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card-body-buscar{
+    display: flex;
+    flex-direction: row;   
+}
+
+.card-body-buscar{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card-body-buscar label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body-buscar input{
+    width: 69%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.cep_input{
+    width: 250px;
+    padding: 5px
+}
+
+.resultado_CEP{
+    margin-top: 4%;
+}
+
+.resultado_CEP h5{
+    margin-bottom: 3%;
+}
+
+.infor_titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#style_cep{
+    display: none;
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer i{
+    margin-right: 10px;
+}
+
+.card-footer .badge{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
