@@ -36,17 +36,19 @@
         var notas = [10.0, 9.5, 6.9, 1.5, 4.8, 5.2, 6.4, 8.8, 5.9, 7.7];
 
         notas.forEach(function (item, index) {
-            document.getElementById('exibicaoNotas').innerHTML += (index) + ' - ' + 'Nota: ' + item + '<br>';
+            document.getElementById('exibicaoNotas').innerHTML += (index + 1) + ' - ' + 'Nota: ' + item + '<br>';
         });
 
         function consultarNota() {
             var posicao_nota = parseFloat(prompt("Qual posição da nota deseja consultar?"))
 
+            posicao_nota = posicao_nota - 1
+
             if (notas[posicao_nota] > 7.0){
-                alert(`Posição ${posicao_nota}: - Nota Aprovativa: ${notas[posicao_nota]}`);
+                alert(`Posição ${posicao_nota + 1}: - Nota Aprovativa: ${notas[posicao_nota]}`);
             } 
             else {
-                alert(`Posição ${posicao_nota}: - Nota Reprovativa: ${notas[posicao_nota]}`);
+                alert(`Posição ${posicao_nota + 1}: - Nota Reprovativa: ${notas[posicao_nota]}`);
             }
 
         }
